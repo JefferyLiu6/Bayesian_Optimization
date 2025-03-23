@@ -1,4 +1,6 @@
-# Bayesian_Optimization
+# Bayesian_Optimization 
+
+References:
 
 https://jamesbrind.uk/posts/2d-gaussian-process-regression//
 
