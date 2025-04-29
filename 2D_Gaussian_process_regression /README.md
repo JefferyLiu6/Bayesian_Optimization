@@ -19,7 +19,10 @@ The sk-learn approcah called the function "GaussianProcessRegressor()"
 
 The sk-learn approcah. I will break it down line by line explaining how to achieve it in gpytorch
 
-- guess_l = (2., 1.)
+- The function "guess_l = (2., 1.)" a tuple defines with initial guesses for the length scale parameters of the Radial Basis Function (RBF) kernel. 2.0 for the x-dim, 1.0 for the y-dim.
+
+
+
 
 - bounds_l = ((1e-1,100.),) * 2
 
