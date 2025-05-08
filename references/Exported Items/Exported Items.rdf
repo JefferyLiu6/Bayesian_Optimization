@@ -1,0 +1,551 @@
+<rdf:RDF
+ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+ xmlns:z="http://www.zotero.org/namespaces/export#"
+ xmlns:dcterms="http://purl.org/dc/terms/"
+ xmlns:bib="http://purl.org/net/biblio#"
+ xmlns:foaf="http://xmlns.com/foaf/0.1/"
+ xmlns:link="http://purl.org/rss/1.0/modules/link/"
+ xmlns:dc="http://purl.org/dc/elements/1.1/"
+ xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/">
+    <bib:Article rdf:about="#item_602">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Song</foaf:surname>
+                        <foaf:givenName>Jialin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Chen</foaf:surname>
+                        <foaf:givenName>Yuxin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Yue</foaf:surname>
+                        <foaf:givenName>Yisong</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_601"/>
+        <dc:title>A General Framework for Multi-ﬁdelity Bayesian Optimization with Gaussian Processes</dc:title>
+        <dcterms:abstract>How can we eﬃciently gather information to optimize an unknown function, when presented with multiple, mutually dependent information sources with diﬀerent costs? For example, when optimizing a physical system, intelligently trading oﬀ computer simulations and real-world tests can lead to signiﬁcant savings. Existing multi-ﬁdelity Bayesian optimization methods, such as multi-ﬁdelity GP-UCB or Entropy Search-based approaches, either make simplistic assumptions on the interaction among diﬀerent ﬁdelities or use simple heuristics that lack theoretical guarantees. In this paper, we study multiﬁdelity Bayesian optimization with complex structural dependencies among multiple outputs, and propose MF-MI-Greedy, a principled algorithmic framework for addressing this problem. In particular, we model diﬀerent ﬁdelities using additive Gaussian processes based on shared latent relationships with the target function. Then we use cost-sensitive mutual information gain for eﬃcient Bayesian optimization. We propose a simple notion of regret which incorporates the varying cost of diﬀerent ﬁdelities, and prove that MF-MI-Greedy achieves low regret. We demonstrate the strong empirical performance of our algorithm on both synthetic and real-world datasets.</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_601">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/601/Song et al. - A General Framework for Multi-ﬁdelity Bayesian Optimization with Gaussian Processes.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_604">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wu</foaf:surname>
+                        <foaf:givenName>Jian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Toscano-Palmerin</foaf:surname>
+                        <foaf:givenName>Saul</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Frazier</foaf:surname>
+                        <foaf:givenName>Peter I</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Wilson</foaf:surname>
+                        <foaf:givenName>Andrew Gordon</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_603"/>
+        <dc:title>Practical Multi-ﬁdelity Bayesian Optimization for Hyperparameter Tuning</dc:title>
+        <dcterms:abstract>Bayesian optimization is popular for optimizing time-consuming black-box objectives. Nonetheless, for hyperparameter tuning in deep neural networks, the time required to evaluate the validation error for even a few hyperparameter settings remains a bottleneck. Multi-ﬁdelity optimization promises relief using cheaper proxies to such objectives — for example, validation error for a network trained using a subset of the training points or fewer iterations than required for convergence. We propose a highly ﬂexible and practical approach to multi-ﬁdelity Bayesian optimization, focused on efﬁciently optimizing hyperparameters for iteratively trained supervised learning models. We introduce a new acquisition function, the trace-aware knowledge-gradient, which efﬁciently leverages both multiple continuous ﬁdelity controls and trace observations — values of the objective at a sequence of ﬁdelities, available when varying ﬁdelity using training iterations. We provide a provably convergent method for optimizing our acquisition function and show it outperforms state-of-the-art alternatives for hyperparameter tuning of deep neural networks and large-scale kernel learning.</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_603">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/603/Wu et al. - Practical Multi-ﬁdelity Bayesian Optimization for Hyperparameter Tuning.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_606">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Shibo</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Xing</foaf:surname>
+                        <foaf:givenName>Wei</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kirby</foaf:surname>
+                        <foaf:givenName>Robert M</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Zhe</foaf:surname>
+                        <foaf:givenName>Shandian</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_605"/>
+        <dc:title>Multi-Fidelity Bayesian Optimization via Deep Neural Networks</dc:title>
+        <dcterms:abstract>Bayesian optimization (BO) is a popular framework for optimizing black-box functions. In many applications, the objective function can be evaluated at multiple ﬁdelities to enable a trade-off between the cost and accuracy. To reduce the optimization cost, many multi-ﬁdelity BO methods have been proposed. Despite their success, these methods either ignore or over-simplify the strong, complex correlations across the ﬁdelities. While the acquisition function is therefore easy and convenient to calculate, these methods can be inefﬁcient in estimating the objective function. To address this issue, we propose Deep Neural Network MultiFidelity Bayesian Optimization (DNN-MFBO) that can ﬂexibly capture all kinds of complicated relationships between the ﬁdelities to improve the objective function estimation and hence the optimization performance. We use sequential, ﬁdelity-wise Gauss-Hermite quadrature and moment-matching to compute a mutual information based acquisition function in a tractable and highly efﬁcient way. We show the advantages of our method in both synthetic benchmark datasets and real-world applications in engineering design.</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_605">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/605/Li et al. - Multi-Fidelity Bayesian Optimization via Deep Neural Networks.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="#item_608">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf>
+           <bib:Journal></bib:Journal>
+        </dcterms:isPartOf>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kandasamy</foaf:surname>
+                        <foaf:givenName>Kirthevasan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dasarathy</foaf:surname>
+                        <foaf:givenName>Gautam</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Oliva</foaf:surname>
+                        <foaf:givenName>Junier</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schneider</foaf:surname>
+                        <foaf:givenName>Jeff</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Póczos</foaf:surname>
+                        <foaf:givenName>Barnabás</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_607"/>
+        <dc:title>Gaussian Process Bandit Optimisation with Multi-ﬁdelity Evaluations</dc:title>
+        <dcterms:abstract>In many scientiﬁc and engineering applications, we are tasked with the optimisation of an expensive to evaluate black box function f . Traditional methods for this problem assume just the availability of this single function. However, in many cases, cheap approximations to f may be obtainable. For example, the expensive real world behaviour of a robot can be approximated by a cheap computer simulation. We can use these approximations to eliminate low function value regions cheaply and use the expensive evaluations of f in a small but promising region and speedily identify the optimum. We formalise this task as a multi-ﬁdelity bandit problem where the target function and its approximations are sampled from a Gaussian process. We develop MF-GP-UCB, a novel method based on upper conﬁdence bound techniques. In our theoretical analysis we demonstrate that it exhibits precisely the above behaviour, and achieves better regret than strategies which ignore multi-ﬁdelity information. MF-GP-UCB outperforms such naive strategies and other multi-ﬁdelity methods on several synthetic and real experiments.</dcterms:abstract>
+        <z:language>en</z:language>
+        <z:libraryCatalog>Zotero</z:libraryCatalog>
+    </bib:Article>
+    <z:Attachment rdf:about="#item_607">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/607/Kandasamy et al. - Gaussian Process Bandit Optimisation with Multi-ﬁdelity Evaluations.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/1703.06240">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Kandasamy</foaf:surname>
+                        <foaf:givenName>Kirthevasan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Dasarathy</foaf:surname>
+                        <foaf:givenName>Gautam</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Schneider</foaf:surname>
+                        <foaf:givenName>Jeff</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Poczos</foaf:surname>
+                        <foaf:givenName>Barnabas</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_609"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Statistics - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Multi-fidelity Bayesian Optimisation with Continuous Approximations</dc:title>
+        <dcterms:abstract>Bandit methods for black-box optimisation, such as Bayesian optimisation, are used in a variety of applications including hyper-parameter tuning and experiment design. Recently, multi-ﬁdelity methods have garnered considerable attention since function evaluations have become increasingly expensive in such applications. Multiﬁdelity methods use cheap approximations to the function of interest to speed up the overall optimisation process. However, most multi-ﬁdelity methods assume only a ﬁnite number of approximations. In many practical applications however, a continuous spectrum of approximations might be available. For instance, when tuning an expensive neural network, one might choose to approximate the cross validation performance using less data N and/or few training iterations T . Here, the approximations are best viewed as arising out of a continuous two dimensional space (N, T ). In this work, we develop a Bayesian optimisation method, BOCA, for this setting. We characterise its theoretical properties and show that it achieves better regret than than strategies which ignore the approximations. BOCA outperforms several other baselines in synthetic and real experiments.</dcterms:abstract>
+        <dc:date>2017-03-18</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1703.06240</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-29 05:58:39</dcterms:dateSubmitted>
+        <dc:description>arXiv:1703.06240 [stat]</dc:description>
+        <dc:identifier>DOI 10.48550/arXiv.1703.06240</dc:identifier>
+        <prism:number>arXiv:1703.06240</prism:number>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_609">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/609/Kandasamy et al. - 2017 - Multi-fidelity Bayesian Optimisation with Continuous Approximations.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://royalsocietypublishing.org/doi/10.1098/rspa.2007.1900">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:1364-5021,%201471-2946"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Forrester</foaf:surname>
+                        <foaf:givenName>Alexander I.J</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Sóbester</foaf:surname>
+                        <foaf:givenName>András</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Keane</foaf:surname>
+                        <foaf:givenName>Andy J</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_611"/>
+        <dc:title>Multi-fidelity optimization via surrogate modelling</dc:title>
+        <dcterms:abstract>This paper demonstrates the application of correlated Gaussian process based approximations to optimization where multiple levels of analysis are available, using an extension to the geostatistical method of
+              co-kriging
+              . An exchange algorithm is used to choose which points of the search space to sample within each level of analysis. The derivation of the co-kriging equations is presented in an intuitive manner, along with a new variance estimator to account for varying degrees of computational ‘noise’ in the multiple levels of analysis. A multi-fidelity wing optimization is used to demonstrate the methodology.</dcterms:abstract>
+        <dc:date>2007-12-08</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://royalsocietypublishing.org/doi/10.1098/rspa.2007.1900</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-04-29 06:04:40</dcterms:dateSubmitted>
+        <dc:rights>https://royalsociety.org/journals/ethics-policies/data-sharing-mining/</dc:rights>
+        <bib:pages>3251-3269</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:1364-5021,%201471-2946">
+        <prism:volume>463</prism:volume>
+        <dc:title>Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences</dc:title>
+        <dc:identifier>DOI 10.1098/rspa.2007.1900</dc:identifier>
+        <prism:number>2088</prism:number>
+        <dcterms:alternative>Proc. R. Soc. A.</dcterms:alternative>
+        <dc:identifier>ISSN 1364-5021, 1471-2946</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_611">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/611/Forrester et al. - 2007 - Multi-fidelity optimization via surrogate modelling.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/2402.09638">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Ke</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Fan</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_740"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+                <rdf:value>Computer Science - Neural and Evolutionary Computing</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Multi-Fidelity Methods for Optimization: A Survey</dc:title>
+        <dcterms:abstract>Real-world black-box optimization often involves time-consuming or costly experiments and simulations. Multi-fidelity optimization (MFO) stands out as a cost-effective strategy that balances high-fidelity accuracy with computational efficiency through a hierarchical fidelity approach. This survey presents a systematic exploration of MFO, underpinned by a novel text mining framework based on a pre-trained language model. We delve deep into the foundational principles and methodologies of MFO, focusing on three core components—multi-fidelity surrogate models, fidelity management strategies, and optimization techniques. Additionally, this survey highlights the diverse applications of MFO across several key domains, including machine learning, engineering design optimization, and scientific discovery, showcasing the adaptability and effectiveness of MFO in tackling complex computational challenges. Furthermore, we also envision several emerging challenges and prospects in the MFO landscape, spanning scalability, the composition of lower fidelities, and the integration of human-in-the-loop approaches at the algorithmic level. We also address critical issues related to benchmarking and the advancement of open science within the MFO community. Overall, this survey aims to catalyze further research and foster collaborations in MFO, setting the stage for future innovations and breakthroughs in the field.</dcterms:abstract>
+        <dc:date>2024-02-15</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Multi-Fidelity Methods for Optimization</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/2402.09638</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-05-01 22:56:46</dcterms:dateSubmitted>
+        <dc:description>arXiv:2402.09638 [cs]</dc:description>
+        <dc:identifier>DOI 10.48550/arXiv.2402.09638</dc:identifier>
+        <prism:number>arXiv:2402.09638</prism:number>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_740">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/740/Li and Li - 2024 - Multi-Fidelity Methods for Optimization A Survey.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/1604.07484">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Raissi</foaf:surname>
+                        <foaf:givenName>Maziar</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Karniadakis</foaf:surname>
+                        <foaf:givenName>George</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_743"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Statistics - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Deep Multi-fidelity Gaussian Processes</dc:title>
+        <dcterms:abstract>We develop a novel multi-ﬁdelity framework that goes far beyond the classical AR(1) Co-kriging scheme of Kennedy and O’Hagan (2000). Our method can handle general discontinuous cross-correlations among systems with diﬀerent levels of ﬁdelity. A combination of multi-ﬁdelity Gaussian Processes (AR(1) Co-kriging) and deep neural networks enables us to construct a method that is immune to discontinuities. We demonstrate the eﬀectiveness of the new technology using standard benchmark problems designed to resemble the outputs of complicated high- and low-ﬁdelity codes.</dcterms:abstract>
+        <dc:date>2016-04-26</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1604.07484</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-05-01 23:02:00</dcterms:dateSubmitted>
+        <dc:description>arXiv:1604.07484 [cs]</dc:description>
+        <dc:identifier>DOI 10.48550/arXiv.1604.07484</dc:identifier>
+        <prism:number>arXiv:1604.07484</prism:number>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_743">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/743/Raissi and Karniadakis - 2016 - Deep Multi-fidelity Gaussian Processes.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <bib:Article rdf:about="https://www.nature.com/articles/s41524-022-00947-9">
+        <z:itemType>journalArticle</z:itemType>
+        <dcterms:isPartOf rdf:resource="urn:issn:2057-3960"/>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fare</foaf:surname>
+                        <foaf:givenName>Clyde</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Fenner</foaf:surname>
+                        <foaf:givenName>Peter</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Benatan</foaf:surname>
+                        <foaf:givenName>Matthew</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Varsi</foaf:surname>
+                        <foaf:givenName>Alessandro</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Pyzer-Knapp</foaf:surname>
+                        <foaf:givenName>Edward O.</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_745"/>
+        <dc:title>A multi-fidelity machine learning approach to high throughput materials screening</dc:title>
+        <dcterms:abstract>Abstract
+            The ever-increasing capability of computational methods has resulted in their general acceptance as a key part of the materials design process. Traditionally this has been achieved using a so-called computational funnel, where increasingly accurate - and expensive – methodologies are used to winnow down a large initial library to a size which can be tackled by experiment. In this paper we present an alternative approach, using a multi-output Gaussian process to fuse the information gained from both experimental and computational methods into a single, dynamically evolving design. Common challenges with computational funnels, such as mis-ordering methods, and the inclusion of non-informative steps are avoided by learning the relationships between methods on the fly. We show this approach reduces overall optimisation cost on average by around a factor of three compared to other commonly used approaches, through evaluation on three challenging materials design problems.</dcterms:abstract>
+        <dc:date>2022-12-19</dc:date>
+        <z:language>en</z:language>
+        <z:libraryCatalog>DOI.org (Crossref)</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+                <rdf:value>https://www.nature.com/articles/s41524-022-00947-9</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-05-02 07:15:45</dcterms:dateSubmitted>
+        <bib:pages>257</bib:pages>
+    </bib:Article>
+    <bib:Journal rdf:about="urn:issn:2057-3960">
+        <prism:volume>8</prism:volume>
+        <dc:title>npj Computational Materials</dc:title>
+        <dc:identifier>DOI 10.1038/s41524-022-00947-9</dc:identifier>
+        <prism:number>1</prism:number>
+        <dcterms:alternative>npj Comput Mater</dcterms:alternative>
+        <dc:identifier>ISSN 2057-3960</dc:identifier>
+    </bib:Journal>
+    <z:Attachment rdf:about="#item_745">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/745/Fare et al. - 2022 - A multi-fidelity machine learning approach to high throughput materials screening.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+    <rdf:Description rdf:about="http://arxiv.org/abs/1603.06560">
+        <z:itemType>preprint</z:itemType>
+        <dc:publisher>
+           <foaf:Organization><foaf:name>arXiv</foaf:name></foaf:Organization>
+        </dc:publisher>
+        <bib:authors>
+            <rdf:Seq>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Li</foaf:surname>
+                        <foaf:givenName>Lisha</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Jamieson</foaf:surname>
+                        <foaf:givenName>Kevin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>DeSalvo</foaf:surname>
+                        <foaf:givenName>Giulia</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Rostamizadeh</foaf:surname>
+                        <foaf:givenName>Afshin</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+                <rdf:li>
+                    <foaf:Person>
+                        <foaf:surname>Talwalkar</foaf:surname>
+                        <foaf:givenName>Ameet</foaf:givenName>
+                    </foaf:Person>
+                </rdf:li>
+            </rdf:Seq>
+        </bib:authors>
+        <link:link rdf:resource="#item_747"/>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Computer Science - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:subject>
+            <z:AutomaticTag>
+               <rdf:value>Statistics - Machine Learning</rdf:value>
+            </z:AutomaticTag>
+        </dc:subject>
+        <dc:title>Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization</dc:title>
+        <dcterms:abstract>Performance of machine learning algorithms depends critically on identifying a good set of hyperparameters. While recent approaches use Bayesian optimization to adaptively select conﬁgurations, we focus on speeding up random search through adaptive resource allocation and early-stopping. We formulate hyperparameter optimization as a pure-exploration nonstochastic inﬁnite-armed bandit problem where a predeﬁned resource like iterations, data samples, or features is allocated to randomly sampled conﬁgurations. We introduce a novel algorithm, Hyperband, for this framework and analyze its theoretical properties, providing several desirable guarantees. Furthermore, we compare Hyperband with popular Bayesian optimization methods on a suite of hyperparameter optimization problems. We observe that Hyperband can provide over an order-of-magnitude speedup over our competitor set on a variety of deep-learning and kernel-based learning problems.</dcterms:abstract>
+        <dc:date>2018-06-18</dc:date>
+        <z:language>en</z:language>
+        <z:shortTitle>Hyperband</z:shortTitle>
+        <z:libraryCatalog>arXiv.org</z:libraryCatalog>
+        <dc:identifier>
+            <dcterms:URI>
+               <rdf:value>http://arxiv.org/abs/1603.06560</rdf:value>
+            </dcterms:URI>
+        </dc:identifier>
+        <dcterms:dateSubmitted>2025-05-02 07:26:12</dcterms:dateSubmitted>
+        <dc:description>arXiv:1603.06560 [cs]</dc:description>
+        <dc:identifier>DOI 10.48550/arXiv.1603.06560</dc:identifier>
+        <prism:number>arXiv:1603.06560</prism:number>
+    </rdf:Description>
+    <z:Attachment rdf:about="#item_747">
+        <z:itemType>attachment</z:itemType>
+        <rdf:resource rdf:resource="files/747/Li et al. - 2018 - Hyperband A Novel Bandit-Based Approach to Hyperparameter Optimization.pdf"/>
+        <dc:title>PDF</dc:title>
+        <link:type>application/pdf</link:type>
+    </z:Attachment>
+</rdf:RDF>
